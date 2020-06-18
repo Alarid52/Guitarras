@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        {{#each datos}}
+        <div class="col col-3 m-1">
+            <div class="card" style="width: 18rem;">
+                <img src={{imagen}} class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">id: {{id}}</h5>
+                    <p class="card-text">marca: {{marca}} <br>
+                        modelo: {{modelo}} <br>
+                        Color: {{color}}<br>
+                        Largo (cms): {{largo}}<br>
+                        Ancho (cms) {{ancho}}<br>
+                        Tipo: {{tipo}}<br>
+                        Num de cuerdas: {{numCuerdas}}
+                        
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        {{/each}}
+    </div>
+</div>
